@@ -113,64 +113,53 @@ header nav a:hover {
 /* botões do corpo da página */
 
 .botao {
-   
-    background-color: rgba(255, 255, 255, .50);
+    background-color: rgba(0, 0, 0, .30);
     border: none;
-    color: black;
-
-    padding: 15px 30px;
-    margin-right: 15px;
-    font-size: 12px;
-
-    cursor: pointer;
-    transition: .3s ease all;
-}
-
-.botao a.lnk, .botao a.lnk{
-    
-    text-decoration: none;
-    color:black;
-    font-weight: bold;
-
-}
-
-.botao a.lnk:hover{
-
     color: white;
     font-weight: bold;
 
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 14px;
+    border-radius: 20px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+    user-select: none;
+}
+
+.botao:hover{
+
+    color: black;
+    background:rgba(255,255,255,.30);
+    transition: background color 1s;
+    font-weight: bold;
+    border: none;
+    user-select: none;
 }
 
 .botao i {
-
     margin-right: 8px;
-
 }
 /* Fim dos tratativos dos botões */
 
 .container {
-
     margin-left: 20px;
     margin-right: 10px
 }
 
 .filme-principal .container {
-
     width: 70%;
-
 }
 
 /* Carrossel da parte inferior da página */
 .box-filme {
-
     height: 100%;
     width: 100%;
     display: block;
-
+    background-color: rgba(255, 255, 255, .50);
 }
 
 .carrossel-filmes {
-
     margin-top: 5px;
-
 }
