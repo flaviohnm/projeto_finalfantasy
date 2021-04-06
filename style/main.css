@@ -6,7 +6,7 @@
 
 }
 
-@font-face{
+@font-face {
     font-family: 'final';
     src: url('/fonts/finalf.ttf')
 }
@@ -43,13 +43,13 @@ header .container {
 
 }
 
-header .logo_square{
+header .logo_square {
 
     background-color: var(--preto);
     margin: 15px;
     margin-left: 20px;
-    
-       
+
+
 }
 
 header .logo {
@@ -61,7 +61,7 @@ header .logo {
 
 }
 
-header nav{
+header nav {
 
     margin: 10px 10px;
 
@@ -73,7 +73,7 @@ header nav a {
     color: var(--preto_logo);
     margin-right: 20px;
     font-family: 'Trebuchet MS';
-    
+
 }
 
 header nav a:hover {
@@ -128,10 +128,10 @@ header nav a:hover {
     user-select: none;
 }
 
-.botao:hover{
+.botao:hover {
 
     color: black;
-    background:rgba(255,255,255,.30);
+    background: rgba(255, 255, 255, .30);
     transition: background color 1s;
     font-weight: bold;
     border: none;
@@ -141,6 +141,7 @@ header nav a:hover {
 .botao i {
     margin-right: 8px;
 }
+
 /* Fim dos tratativos dos botões */
 
 .container {
@@ -162,4 +163,30 @@ header nav a:hover {
 
 .carrossel-filmes {
     margin-top: 5px;
+}
+
+/* Estrutura do Rodapé */
+
+footer .container {
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+ 
+}
+
+footer .container .rodape {
+
+    font-size: 22px;
+    font-family: 'Trebuchet MS';
+
+}
+
+.rodape a {
+
+    align-items: center;
+    text-align: center;
+    padding-right: 30px;
+    color: white;
+
 }
