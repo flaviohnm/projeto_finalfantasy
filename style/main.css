@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'final';
-    src: url('/fonts/finalf.ttf')
+    src: url('https://flaviohnm.github.io/projeto_finalfantasy/fonts/finalf.ttf')
 }
 
 
@@ -70,7 +70,8 @@ header nav a:hover {
 
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/capa-03.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%),
+    url('https://flaviohnm.github.io/projeto_finalfantasy/img/capa-03.jpg');
 
     height: 600px;
     background-size: cover;
