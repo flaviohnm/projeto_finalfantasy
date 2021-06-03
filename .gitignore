@@ -1,2 +1,2 @@
-# Para todos os arquivos e sub-pastas localizados na pasta bower_components/
-.old/
+# Para todos os arquivos e sub-pastas localizados na pasta old/
+/old
